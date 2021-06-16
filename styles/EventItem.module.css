@@ -1,0 +1,35 @@
+.event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 13px;
+}
+.img {
+  flex: 1;
+  margin: 10px;
+}
+.info {
+  flex: 2;
+}
+.info h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.btn {
+  background: #ff6363;
+  display: inline-block;
+  padding: 0.6rem 1.3rem;
+  color: white;
+}
+@media (max-width: 600px) {
+  .event {
+    flex-direction: column;
+    text-align: center;
+  }
+  .info {
+    margin-bottom: 20px;
+  }
+}
