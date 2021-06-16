@@ -18,10 +18,10 @@
   font-size: 2rem;
   margin-bottom: 3rem;
 }
-.main p {
+.main p,
+.desp ul li {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #7c7c7c;
   margin-bottom: 1.5rem;
 }
 
